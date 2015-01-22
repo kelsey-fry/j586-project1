@@ -1,0 +1,14 @@
+/*specific styles for bootstrap demo*/
+
+.gray-box{
+    border: 1px solid black;
+    background: gray;
+    min-height: 200px;
+    padding: 25px;
+  }
+
+.small-box{
+    border: 1px solid black;
+    background: white;
+    min-height: 100px;
+}
