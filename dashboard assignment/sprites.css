@@ -1,0 +1,94 @@
+.bars, .bars-green, .dashboard, .dashboard-green, .messages, .messages-green, .note, .note-green, .people, .people-greeen, .tag, .tag-green, .ad1, .adhair2, .ad3{
+	background: url(sprites.png) no-repeat;
+}
+
+.bars{
+	background-position: -3px -4px ;
+	width: 44px;
+	height: 52px;
+}
+
+.bars-green{
+	background-position: -3px -63px ;
+	width: 44px;
+	height: 52px;
+}
+
+.dashboard{
+	background-position: -55px 0;
+	width: 62px;
+	height: 62px;
+}
+
+.dashboard-green{
+	background-position: -55px -65px ;
+	width: 62px;
+	height: 62px;
+}
+
+.messages{
+	background-position: -126px -8px ;
+	width: 59px;
+	height: 48px;
+}
+
+.messages-green{
+	background-position: -127px -71px ;
+	width: 59px;
+	height: 48px;
+}
+
+.note{
+	background-position: -199px -2px ;
+	width: 46px;
+	height: 51px;
+}
+
+.note-green{
+	background-position: -200px -64px ;
+	width: 46px;
+	height: 51px;
+}
+
+.people{
+	background-position: -254px -6px ;
+	width: 61px;
+	height: 44px;
+}
+
+.people-greeen{
+	background-position: -255px -58px ;
+	width: 61px;
+	height: 44px;
+}
+
+.tag{
+	background-position: -326px -7px ;
+	width: 52px;
+	height: 52px;
+}
+
+.tag-green{
+	background-position: -329px -66px ;
+	width: 52px;
+	height: 52px;
+}
+
+.ad1{
+	background-position: -7px -139px ;
+	width: 286px;
+	height: 160px;
+}
+
+.adhair2{
+	background-position: -319px -130px ;
+	width: 303px;
+	height: 171px;
+}
+
+.ad3{
+	background-position: -5px -304px ;
+	width: 278px;
+	height: 160px;
+}
+
