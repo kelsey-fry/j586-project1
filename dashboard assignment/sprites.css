@@ -1,5 +1,6 @@
 .bars, .bars-green, .dashboard, .dashboard-green, .messages, .messages-green, .note, .note-green, .people, .people-greeen, .tag, .tag-green, .ad1, .adhair2, .ad3{
 	background: url(sprites.png) no-repeat;
+	display: block;
 }
 
 .bars{
@@ -8,7 +9,7 @@
 	height: 52px;
 }
 
-.bars-green{
+.bars:hover{
 	background-position: -3px -63px ;
 	width: 44px;
 	height: 52px;
@@ -20,7 +21,7 @@
 	height: 62px;
 }
 
-.dashboard-green{
+.dashboard:hover{
 	background-position: -55px -65px ;
 	width: 62px;
 	height: 62px;
@@ -32,7 +33,7 @@
 	height: 48px;
 }
 
-.messages-green{
+.messages:hover{
 	background-position: -127px -71px ;
 	width: 59px;
 	height: 48px;
@@ -44,7 +45,7 @@
 	height: 51px;
 }
 
-.note-green{
+.note:hover{
 	background-position: -200px -64px ;
 	width: 46px;
 	height: 51px;
@@ -56,7 +57,7 @@
 	height: 44px;
 }
 
-.people-greeen{
+.people:hover{
 	background-position: -255px -58px ;
 	width: 61px;
 	height: 44px;
@@ -68,7 +69,7 @@
 	height: 52px;
 }
 
-.tag-green{
+.tag:hover{
 	background-position: -329px -66px ;
 	width: 52px;
 	height: 52px;
