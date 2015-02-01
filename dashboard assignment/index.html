@@ -8,7 +8,7 @@
 
     <!-- Bootstrap -->
     <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="styles.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 	<link href="sprites.css" rel="stylesheet">
 
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
@@ -20,41 +20,61 @@
   </head>
   <body>
     <header>header goes here</header>
-    <nav>
-	<div class="nav icons">
+    <nav >
+	<div class="nav nav-icons" style="text-align:center">
 	<ul>
-	<li class="dashboard"><a href="#"></a></li>
-	<li class="people"><a href="#"></a></li>
-	<li class="messages"><a href="#"></a></li>
-	<li class="tag"><a href="#"></a></li>
-	<li class="note"><a href="#"></a></li>
-	<li class="bars"><a href="#"></a></li>
+	<li class="dashboard navi"><a href="#"></a></li>
+	<li class="people navi"><a href="#"></a></li>
+	<li class="messages navi"><a href="#"></a></li>
+	<li class="tag navi"><a href="#"></a></li>
+	<li class="note navi"><a href="#"></a></li>
+	<li class="bars navi"><a href="#"></a></li>
 	</ul>
 	</div>
 	</nav>
 	<!-- <div class="dashboard"></div></nav> -->
 <div class="container">
-            <div class="row">
-        <div class= "col-md-12 dash">Dashboard 
-          <div class="row">
-              <div class="col-md-12">
-              <div class="col-md-4 small-box">for search</div>
-          </div>
-        </div>
+       <!-- <div class="row">
+        <div class= "col-md-12 dash">Dashboard</div>
+		</div>
+		 <div class="row">
+			  <div class="col-md-8 dash"></div>
+              <div class="col-md-4 dash small-box">for search</div>
+			  </div> -->
+		<div class="row">
+		<div class="col-sm-12 dash1">
+		<div class="row">
+		<div class="col-xs-8 col-sm-8 dash">
+        Dashboard
+		</div>
+		<div class="col-xs-4 col-sm-4 small-box">
+        for search
       </div>
+    </div>
+  </div>
 </div>
+          </div>
+
+<div class="container">
         <div class="row">
-        <div class= "col-md-2 outlined">Announcements</div>
+        <div class= "col-md-2 outlined orange-text">ANNOUNCEMENTS</div>
         <div class="col-md-9 outlined">Blah blah blah here</div>
         <div class="col-md-1 outlined">Arrows</div>
         </div>
         
         <div class="row">
-            <div class="col-md-4 outlined">Tasks</div>
-            <div class="col-md-8 outlined">Analytics</div>
+            <div class="col-md-4 outlined blue-text">Tasks
+			<ol>
+			<li> Welcome Contacts</li>
+			<li> Provide Responses</li>
+			<li> Review Activity</li>
+			<li> Reach Out </li>
+			</ol>
+			</div>
+            <div class="col-md-8 outlined blue-text">Analytics</div>
         </div>
         
-        <div class="row ads"
+        <!-- <div class="row ads">
              <div class="col-md-12">
              <div class="row">
                 <img src="images/ad1.png" class="ad-images">
@@ -64,10 +84,27 @@
               <!--<div class="col-md-3 small-box"> <img src="images/ad1.png">-->
               <!--<div class="col-md-3 small-box">-->
               <!--<div class="col-md-3 small-box"></div>-->
-             </div>
+<!--              </div>
+</div>
+</div>
+</div>
+</div> -->
+<div class="row ads">
+		<div class="col-sm-12">
+		<div class="row">
+		<div class="col-xs-3 col-sm-4 ad-images"></div><div class="ad1"></div>
+		<div class="col-xs-3 col-sm-4 ad-images"></div><!-- <div class="ad2hair"></div> -->
+	  <div class="col-xs-3 col-sm-4 ad-images"></div><!-- <div class="ad3"</div> -->
+    </div>
+  </div>
+</div>
 </div>
       
-
+<footer>
+	<div class="col-sm-3" style="text-align:right">Tutorials | Support | Blog</div>
+	<div class="col-sm-6" style="text-align:center">Ariel Winter likes your Win a Cooper Sweepstakes Promotion</div>
+	<div class="col-sm-3"></div>
+</footer>
      
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
