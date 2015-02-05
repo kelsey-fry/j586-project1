@@ -106,7 +106,7 @@ img.centered{
 }
 
 .blue-text{
-	color: #1f8be1;
+	color: #2498f4;
 	font-family: "Myriad Pro", Verdana;
 	line-height: 3;
 }
@@ -118,8 +118,19 @@ img.centered{
 	line-height: 3;
 }
 
+.announcements{
+	padding:10px;
+}
+
+.sociis{
+	color: #777777;
+	font-family:"Myriad Pro", Verdana;
+	font-size: 14px;
+	}
+
 .outlined {
-    border: solid black 1px;
+    /*border: solid black 1px;*/
+    border: solid #eeeeee 1px;
 	font-family: "Myriad Pro", Verdana;
 }
 
@@ -154,7 +165,7 @@ img.centered{
 	vertical-align: bottom;
 	border:0;
 	}
-
+	
 
 
 footer {
