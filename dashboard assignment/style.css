@@ -42,6 +42,11 @@ ol {
 	list-style: none;
 	font-family: "Myriad Pro", Verdana;
 }
+
+ul {
+	list-style:none;
+}
+
 /* ol { 
     counter-reset: item;
     list-style-type: none;
@@ -60,24 +65,30 @@ img.centered{
 
 .dash {
     color: #FFF;
-
     background: #33cc66;
     height: 50px;
     border-radius: 3px;
     font-family: "Myriad Pro", Verdana;
-    font-size: 28px;
-	  	padding: 10px;
+    font-size: 36px;
+    padding-left: 10px;
+	  	
 }
  .dash1{
-     margin-top: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
   background: #33cc66;
   border-radius: 5px;
+  padding-right: 35px;
+  padding-top: 20px;
+
+  
 
  }
  
 .left-side {
     font-family: Arial;
     font-size: 36px;
+    padding: 25px;
 }
 .small-box {
     float: right;
@@ -85,8 +96,7 @@ img.centered{
     border: solid gray 1px;
     border-radius: 3px;
 	font-family: "Myriad Pro", Verdana;
-    font-size: 10px;
-    height: 20px;
+    font-size: 20px;
 
 }
 
@@ -98,6 +108,14 @@ img.centered{
 .blue-text{
 	color: #1f8be1;
 	font-family: "Myriad Pro", Verdana;
+	line-height: 3;
+}
+
+.blue-titles{
+	color: #1f8be1;
+	font-family: "Myriad Pro", Verdana;
+	/*font-size: 32px; */
+	line-height: 3;
 }
 
 .outlined {
@@ -119,17 +137,24 @@ img.centered{
 
 .ad-boxes img {
 	vertical-align: bottom;
-	border:-10px;
+	border:0;
 	}
 	
 .ads {
 	background-position: center;
 	left: 0px;
-    top: -10px;
+
     background: #2498f4;
     padding: 25px;
     height: auto;
 }
+
+.ads img {
+	float: left;
+	vertical-align: bottom;
+	border:0;
+	}
+
 
 
 footer {
