@@ -1,0 +1,66 @@
+.task1, .task2, .task3, .task4, .piecharts, .line-graph2, .line-graph1, .graph, .check, .Button--Navigation--Small--Left{
+	background: url(sprites2.png) no-repeat;
+	display: block;
+	position: relative;
+}
+
+.task1{
+	background-position: -10px -15px ;
+	width: 27px;
+	height: 25px;
+}
+
+.task2{
+	background-position: -42px -15px ;
+	width: 27px;
+	height: 26px;
+}
+
+.task3{
+	background-position: -74px -17px ;
+	width: 27px;
+	height: 25px;
+}
+
+.task4{
+	background-position: -108px -16px ;
+	width: 27px;
+	height: 26px;
+}
+
+.piecharts{
+	background-position: -430px -16px ;
+	width: 129px;
+	height: 274px;
+}
+
+.line-graph2{
+	background-position: -225px -58px ;
+	width: 195px;
+	height: 80px;
+}
+
+.line-graph1{
+	background-position: -25px -59px ;
+	width: 190px;
+	height: 80px;
+}
+
+.graph{
+	background-position: -13px -157px ;
+	width: 420px;
+	height: 195px;
+}
+
+.check{
+	background-position: -176px -5px ;
+	width: 41px;
+	height: 40px;
+}
+
+.Button--Navigation--Small--Left{
+	background-position: -148px -18px ;
+	width: 22px;
+	height: 22px;
+}
+

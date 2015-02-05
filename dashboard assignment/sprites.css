@@ -1,6 +1,7 @@
 .bars, .bars-green, .dashboard, .dashboard-green, .messages, .messages-green, .note, .note-green, .people, .people-greeen, .tag, .tag-green, .ad1, .adhair2, .ad3{
 	background: url(sprites.png) no-repeat;
 	display: block;
+	position: relative;
 }
 
 .bars{
@@ -79,6 +80,7 @@
 	background-position: -7px -139px ;
 	width: 286px;
 	height: 160px;
+	z-index: 2;
 }
 
 .adhair2{

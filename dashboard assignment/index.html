@@ -10,7 +10,8 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="style.css" rel="stylesheet">
 	<link href="sprites.css" rel="stylesheet">
-
+	<link href="sprites2.css" rel="stylesheet">
+	
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -19,7 +20,12 @@
     <![endif]-->
   </head>
   <body>
-    <header>header goes here</header>
+    <header>Header goes here
+	<!-- <ul>
+	<li>MINI of Raleigh | </li>
+	<li class="check"><a href="#"></a></li>
+	</ul> -->
+	<header>
     <nav >
 	<div class="nav nav-icons" style="text-align:center">
 	<ul>
@@ -59,20 +65,24 @@
         <div class="row">
         <div class= "col-md-2 outlined orange-text">ANNOUNCEMENTS</div>
         <div class="col-md-9 outlined">Blah blah blah here</div>
-        <div class="col-md-1 outlined">Arrows</div>
+        <div class="col-md-1 outlined Button--Navigation--Small--Left"></div>
         </div>
         
         <div class="row">
             <div class="col-md-4 outlined blue-text">Tasks
-			<ol>
-			<li> Welcome Contacts</li>
-			<li> Provide Responses</li>
-			<li> Review Activity</li>
-			<li> Reach Out </li>
-			</ol>
+			<ul>
+			<span><li class="task1">  Welcome Contacts</li>
+			<li class="task2"> Provide Responses</li>
+			<li class="task3"> Review Activity</li>
+			<li class="task4"> Reach Out </li>
+			</span>
+			</ul>
 			</div>
-            <div class="col-md-8 outlined blue-text">Analytics</div>
-        </div>
+            <div class="col-md-8 outlined blue-text">Analytics
+			<br>
+			<span class="graph"></span></div>
+			</ul>
+		</div>
         
         <!-- <div class="row ads">
              <div class="col-md-12">
@@ -92,19 +102,20 @@
 <div class="row ads">
 		<div class="col-sm-12">
 		<div class="row">
-		<div class="col-xs-3 col-sm-4 ad-images"></div><div class="ad1"></div>
-		<div class="col-xs-3 col-sm-4 ad-images"></div><!-- <div class="ad2hair"></div> -->
-	  <div class="col-xs-3 col-sm-4 ad-images"></div><!-- <div class="ad3"</div> -->
-    </div>
+		<div>
+		<div class="col-xs-4 col-sm-4 col-md-4 ad-boxes"><img src="images/ad1.png" alt=""></div><!-- <div class="ad1"></div> -->
+		<div class="col-xs-4 col-sm-4 col-md-4 ad-boxes"><img src="images/ad2.png" alt=""></div><!-- <div class="ad2hair"></div> -->
+	  <div class="col-xs-4 col-sm-4 col-md-4 ad-boxes"><img src="images/ad3.png" alt=""></div><!-- <div class="ad3"</div> -->
+  </div>
   </div>
 </div>
 </div>
-      
-<footer>
-	<div class="col-sm-3" style="text-align:right">Tutorials | Support | Blog</div>
-	<div class="col-sm-6" style="text-align:center">Ariel Winter likes your Win a Cooper Sweepstakes Promotion</div>
-	<div class="col-sm-3"></div>
-</footer>
+  <footer class="container">
+	<div class="col-sm-3 footer" style="text-align:right">Tutorials | Support | Blog</div>
+	<div class="col-sm-6 footer" style="text-align:center">Ariel Winter likes your Win a Cooper Sweepstakes Promotion</div>
+	<div class="col-sm-3 footer">Logout</div>
+</footer>    
+
      
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
