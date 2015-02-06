@@ -180,8 +180,12 @@ img.centered{
 	border:0;
 	}
 	
-
-
+.did-you-know {
+	float: right;
+	border-radius: 10px;
+	background: #2498f4;
+	}
+	
 footer {
 	min-width: 100%;
 	color: #999999;
