@@ -1,16 +1,21 @@
 
-
 body, header, nav{
-font-family: Myriad Pro, Verdana;
+font-family: "Myriad Pro", Verdana;
 }
 	
-	
 header {
+    background: #1f8be1;
+    height: 2.5em;
+    max-width: 100%;
+}
+.header-main{
     color: #fff;
     background: #1f8be1;
     height: 2.5em;
     max-width: 100%;
-	font-family: "Myriad Pro", Verdana;
+	font-family: "ProximaNova Bold", Verdana;
+	font-size: 14px;
+	padding-right: 350px;
 }
 
 nav {
@@ -95,6 +100,7 @@ img.centered{
     background: #f4f4f4;
     border: solid gray 1px;
     border-radius: 3px;
+	height:35px;
 	font-family: "Myriad Pro", Verdana;
     font-size: 20px;
 
@@ -118,14 +124,22 @@ img.centered{
 	line-height: 3;
 }
 
+.btn-group{
+	margin-left: 240px;
+}
+.social-networks{
+	margin-left: 170px; 
+}
 .announcements{
 	padding:10px;
+	height:40px;
 }
 
 .sociis{
 	color: #777777;
 	font-family:"Myriad Pro", Verdana;
 	font-size: 14px;
+	height:40px;
 	}
 
 .outlined {
@@ -138,9 +152,9 @@ img.centered{
 	position: relative;
 /* 	left: 0px;
     top: 0px; */
-    border-radius: 5px;
+    border-radius: 13px;
 	background: #FFF;
-	height: 155px;
+	height: 157.5px;
 	margin-left: 3.25%;
 	margin-right: 3.25%;
 	width: 298px;
@@ -170,7 +184,7 @@ img.centered{
 
 footer {
 	min-width: 100%;
-	color: black;
+	color: #999999;
 	}
 	
 /* footer{
@@ -180,10 +194,16 @@ footer {
 	 */
 .footer{
 	margin-top: 60px;
+	height: 50px;
 	background: #f4f4f4;
 	border-top: darkslategray solid 1px;
+	border-right: darkslategray solid 1px;
 	font-family: "Myriad Pro", Verdana;
 }
+
+p#footer-links {
+	color: #2498f2;
+	}
 
 
 
