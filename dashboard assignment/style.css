@@ -1,4 +1,3 @@
-
 body, header, nav{
 font-family: "Myriad Pro", Verdana;
 }
@@ -8,6 +7,31 @@ header {
     height: 2.5em;
     max-width: 100%;
 }
+
+header a:link {
+	color: white;
+	font-weight: bold;
+}
+
+h1 {
+	font-size: 32px;
+	}
+	
+h2 {
+	font-size: 16px;
+	}
+	
+h3 {
+	font-size: 12px;
+	color: #999999;
+}
+
+h4 {
+	font-size: 10px;
+	color: #999999;
+	line-height: .5;
+}
+
 .header-main{
     color: #fff;
     background: #1f8be1;
@@ -15,34 +39,35 @@ header {
     max-width: 100%;
 	font-family: "ProximaNova Bold", Verdana;
 	font-size: 14px;
-	padding-right: 350px;
 }
 
+.body-wrapper{
+	width: 100%;
+	}
 nav {
 	background-image: url("images/blue_bg.png");
     background-color: #134670;
     max-width: auto;
 	height: 110px;
 	font-family: "Myriad Pro", Verdana;
+
 }
 
 .nav-icons {
 	width: auto;
 	padding-top: 30px;
-	/* margin: 0px auto; */
-	margin-left: 32%;
+ 	margin-left: 32%;
 	margin-right: 32%;
-/* 	margin-left: auto;
-	margin-right: auto; */
 }
+
 
 li.navi{
 	float: left;
-	/* margin-left: 10px; */
 	margin-right: 20px;
 
 }
 
+ 
 ol {
 	list-style: none;
 	font-family: "Myriad Pro", Verdana;
@@ -52,15 +77,6 @@ ul {
 	list-style:none;
 }
 
-/* ol { 
-    counter-reset: item;
-    list-style-type: none;
-}
-li { display: block; }
-li:before { 
-    content: counter(item) "  "; 
-    counter-increment: item 
-} */
 
 img.centered{
     display: block;
@@ -90,6 +106,25 @@ img.centered{
 
  }
  
+ .recs img{
+ float: left;
+ line-height: 3.4;
+ 
+ }
+ 
+ .tasks {
+	line-height: 3.4;
+ }
+ 
+ .tasks img{
+	display: inline;
+ }
+ 
+ .people-buttons img {
+	display: inline;
+	float: right;
+ }
+ 
 .left-side {
     font-family: Arial;
     font-size: 36px;
@@ -114,27 +149,56 @@ img.centered{
 .blue-text{
 	color: #2498f4;
 	font-family: "Myriad Pro", Verdana;
-	line-height: 3;
+ 	line-height: 3.5;
 }
+
+.white-text{
+	color: #FFF;
+	font-family: "Myriad Pro", Verdana;
+	line-height: 1.5;
+	}
 
 .blue-titles{
 	color: #1f8be1;
 	font-family: "Myriad Pro", Verdana;
-	/*font-size: 32px; */
 	line-height: 3;
 }
 
 .btn-group{
-	margin-left: 240px;
+	float: right;
 }
-.social-networks{
-	margin-left: 170px; 
+.social-networks {
+
+	margin-left: 150px;
 }
 .announcements{
 	padding:10px;
 	height:40px;
 }
 
+.activity img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.channels img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	}
+
+.graphs1 {
+	padding-top: 15px;
+	padding-bottom: 15px;
+}	
+	
+.graphs1 img {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
+	
 .sociis{
 	color: #777777;
 	font-family:"Myriad Pro", Verdana;
@@ -143,15 +207,12 @@ img.centered{
 	}
 
 .outlined {
-    /*border: solid black 1px;*/
     border: solid #eeeeee 1px;
 	font-family: "Myriad Pro", Verdana;
 }
 
 .ad-boxes{
 	position: relative;
-/* 	left: 0px;
-    top: 0px; */
     border-radius: 13px;
 	background: #FFF;
 	height: 157.5px;
@@ -168,7 +229,6 @@ img.centered{
 .ads {
 	background-position: center;
 	left: 0px;
-
     background: #2498f4;
     padding: 25px;
     height: auto;
@@ -176,38 +236,82 @@ img.centered{
 
 .ads img {
 	float: left;
-	vertical-align: bottom;
+	bottom: 25px;
 	border:0;
 	}
-	
+
+.did-you-know-container {
+	padding-left: 50px;
+	padding-right: 50px;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	background: #FFF;
+		}
 .did-you-know {
 	float: right;
 	border-radius: 10px;
+	padding: 45px;
 	background: #2498f4;
 	}
+
 	
 footer {
 	min-width: 100%;
 	color: #999999;
+	background: #f4f4f4;
+	clear: both;
 	}
 	
-/* footer{
-	background: #f4f4f4;
-	border-top: darkslategray solid 1px;
-	}
-	 */
-.footer{
+.footers{
+	min-width: 100px;
 	margin-top: 60px;
 	height: 50px;
 	background: #f4f4f4;
-	border-top: darkslategray solid 1px;
-	border-right: darkslategray solid 1px;
+	border-top: #999999 solid 1px;
+	border-right: #999999 solid 1px;
 	font-family: "Myriad Pro", Verdana;
+		padding: 10px;
 }
 
-p#footer-links {
-	color: #2498f2;
+.footers img {
+	display: inline;
+	margin-left: auto;
+	margin-right: auto;
+	}
+	
+.footers a:link {
+	color: #2498f4;
+	font-weight: bold;
+}
+
+img#back {
+	display: inline;
+	float: left;
+	margin-left: -70px;
+	margin-top: 30px;
 	}
 
+img#next {
+	display: inline;
+	float: right;
+	margin-right: -70px;
+	margin-top: 30px;
+	}
+	
+img#ad-hair {
+	display: block;
+	margin-top: -18px;
+	}
 
+img#influencers1 {
+	display: inline;
+	margin-top: -115px;
+	margin-left: 115px;
+}
+
+img#influencers2 {
+	display: inline;
+	margin-top: -115px;
+	margin-left: 110px;
+}
 
